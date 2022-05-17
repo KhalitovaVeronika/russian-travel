@@ -1,0 +1,7 @@
+.place__website {
+    text-decoration-line: underline;
+    list-style-type: none;
+    display: block;
+    padding: 0%;
+    margin: 0;
+}
