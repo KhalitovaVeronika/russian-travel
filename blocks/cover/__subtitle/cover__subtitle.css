@@ -3,13 +3,12 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    border: solid 1px #d02828;
     width: 360px;
     line-height: 122%;
     margin: 32px auto;
     }
 
-    @media screen and (max-width: 459px) {
+    @media screen and (max-width: 320px) {
         .cover__subtitle {
             min-height: 200px;
             font-size: 14px;
