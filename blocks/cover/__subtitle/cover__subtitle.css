@@ -3,15 +3,15 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    width: 360px;
+    max-width: 360px;
     line-height: 122%;
     margin: 32px auto;
     }
 
     @media screen and (max-width: 320px) {
         .cover__subtitle {
-            min-height: 200px;
-            font-size: 14px;
-            margin-top: 16px;
+         min-height: 200px;
+         font-size: 14px;
+         margin-top: 16px;
         }
     }
