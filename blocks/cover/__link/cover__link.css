@@ -9,14 +9,11 @@
     justify-content: center;
     text-decoration: none;
     color: white;
-     position: relative;
+    position: relative;
     z-index: 1;
-    height: 740px;
+    min-height: 740px;
     padding: 0;
-}
-
-.cover__link:hover {
-    opacity: 0.8;
+    padding-bottom: 0%;
 }
 
 .cover__link::before {
@@ -25,6 +22,7 @@
     left: 0;
     right: 0;
     bottom: 0;
+    z-index: -1;
     top: 0;
     background-color: #2A2C2F;
     transition: opacity 0.35s;

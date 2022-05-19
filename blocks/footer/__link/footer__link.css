@@ -1,21 +1,23 @@
 .footer__link {
-    font-family: 'Inter';
-    font-style: normal;
+    color: #ffffff;
     font-weight: 400;
     font-size: 16px;
-    line-height: 112%;
-    color: #FFFFFF;
-    margin-right: 18px;
+    line-height: 18px;
     text-decoration: none;
-}
-.footer__link:last-of-type {
-    margin: 0;
-}
-
-@media screen and (max-width: 320px) {
+    margin-right: 18px;
+  }
+  
+  @media screen and (max-width: 768px) {
     .footer__link {
-        font-size: 24px;
-        line-height: 100%;
-        margin-bottom: 32px;
+      line-height: 24px;
+      
     }
-}
+  }
+  
+  @media screen and (max-width: 425px) {
+    .footer__link {
+      font-size: 24px;
+      line-height: 24px;
+      margin-bottom: 32px;
+    }
+  }

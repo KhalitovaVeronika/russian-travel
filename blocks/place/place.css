@@ -4,7 +4,8 @@
     display: grid;
     grid-template-columns: minmax(320px, 460px) minmax(288px, 484px);
     gap: 48px 40px;
-    overflow: hidden;
+    max-width: 984px;
+
 }
 
 .place:last-of-type {
@@ -15,12 +16,14 @@
 @media screen and (max-width: 1024px) {
     .place {
         gap: 48px 32px;
+        max-width: 928px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .place {
         gap: 48px 28px;
+        margin-bottom: 73px;
     }
 }
 

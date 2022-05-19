@@ -4,11 +4,15 @@
     padding: 0;
     margin: 0 auto;
     margin-top: 92px;
+    position: relative;
+    max-width: 1184px;
+    max-height: 1184px;
 }
 
 @media screen and (max-width: 768px) {
     .cover {
         margin-top: 90px;
+
     }
 }
 

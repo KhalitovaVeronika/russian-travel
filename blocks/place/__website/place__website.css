@@ -1,7 +1,17 @@
 .place__website {
-    text-decoration-line: underline;
     list-style-type: none;
     display: block;
     padding: 0%;
     margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-bottom: 8px;
+    column-gap: 12px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place {
+        gap: 48px 32px;
+    }
 }
