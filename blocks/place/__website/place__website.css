@@ -1,16 +1,16 @@
 .place__website {
     list-style-type: none;
-    padding: 0%;
+    padding: 0;
     margin: 0;
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
-    margin-bottom: 8px;
-    column-gap: 12px;
+    margin-top: 12px;
 }
 
-@media screen and (max-width: 1024px) {
-    .place {
-        gap: 48px 32px;
+
+@media screen and (max-width: 420px) {
+    .place__website {
+        margin-left: 16px;
     }
 }

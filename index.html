@@ -9,19 +9,17 @@
   </head>
   <body class="page">
     <header class="header">
-      <div>
-        <img
-          class="header__logo"
-          src="./sprint-3-images/header-logo.svg"
-          alt="лого Россия"
-        />
-      </div>
+      <img
+        class="header__logo"
+        src="./sprint-3-images/header-logo.svg"
+        alt="лого Россия"
+      />
       <ul class="header__lang-links">
         <li>
           <a
             href="#"
             target="_blank"
-            class="header__lang-link header__lang-link_ru"
+            class="header__lang-link header__lang-link_active"
             >Ru</a
           >
         </li>
@@ -161,7 +159,7 @@
             alt="Коса"
             data-type="auto"
           />
-          <ul class="paragraph">
+          <ul class="place__paragraphs">
             <li class="place__paragraph">
               Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных
               горизонта — спокойного Куршского залива с одной стороны и
@@ -189,12 +187,12 @@
             >
           </div>
           <img
-            class="place__grid-place place__image"
+            class="place__image"
             src="./sprint-3-images/place-kolsky.jpg"
             alt="Кольский"
             data-type="auto"
           />
-          <ul class="paragraph">
+          <ul class="place__paragraphs">
             <li class="place__paragraph">
               Почти весь полуостров находится за Полярным кругом. Саамская
               тундра, от которой на юг — тайга, а на север — Ледовитый океан,
@@ -217,17 +215,17 @@
             <p class="place__url-heading">URL</p>
             <a
               href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
-              class="place__grid-place place__link"
+              class="place__link"
               >Facebook</a
             >
           </div>
           <img
-            class="place__grid-place place__image"
+            class="place__image"
             src="./sprint-3-images/place-altai.jpg"
             alt="Коса"
             data-type="auto"
           />
-          <ul class="paragraph">
+          <ul class="place__paragraphs">
             <li class="place__paragraph">
               Алтай — одно из красивейших мест в России. В первую очередь из-за
               гор: если ехать вдоль хребта, вы увидите склоны, усыпанные
@@ -252,12 +250,12 @@
             >
           </div>
           <img
-            class="place__grid-place place__image"
+            class="place__image"
             src="./sprint-3-images/place-winter-baikal.jpg"
             alt="Зимний Байкал"
             data-type="auto"
           />
-          <ul class="paragraph">
+          <ul class="place__paragraphs">
             <li class="place__paragraph">
               Всем известен Байкал как крупнейшее озеро в мире. Многие также
               знают, что это самый большой источник пресной воды и одно из
@@ -281,13 +279,13 @@
             >
           </div>
           <img
-            class="place__grid-place place__image"
+            class="place__image"
             src="./sprint-3-images/place-karelia.jpg"
             alt="Карелия"
             data-type="auto"
           />
-          <ul class="paragraph">
-            <li class="place__grid-place place__paragraph">
+          <ul class="place__paragraphs">
+            <li class="place__paragraph">
               Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу
               сибирская лиственница не растёт западнее Водлозера. Зато здесь она
               вымахивает на 30 метров — леса карельских национальных парков
@@ -310,18 +308,53 @@
           </p>
         </a>
       </section>
-      <footer class="footer">
-        <nav class="footer__nav">
-          <ul class="footer__links">
-            <li class="footer__link">Карты</li>
-            <li class="footer__link">Погода</li>
-            <li class="footer__link">Расписание</li>
-            <li class="footer__link">Календарь</li>
-            <li class="footer__link">Путешествия</li>
-          </ul>
-        </nav>
-        <p class="footer__copyright">© 2022. Вероника Халитова</p>
-      </footer>
     </main>
+    <footer class="footer">
+      <nav class="footer__nav">
+        <ul class="footer__links">
+          <li>
+            <a
+              class="footer__link"
+              href="https://yandex.ru/maps"
+              target="_blank"
+              >Карты</a
+            >
+          </li>
+          <li>
+            <a
+              class="footer__link"
+              href="https://yandex.ru/pogoda"
+              target="_blank"
+              >Погода</a
+            >
+          </li>
+          <li>
+            <a
+              class="footer__link"
+              href="https://rasp.yandex.ru"
+              target="_blank"
+              >Расписание</a
+            >
+          </li>
+          <li>
+            <a
+              class="footer__link"
+              href="https://calendar.yandex.ru"
+              target="_blank"
+              >Календарь</a
+            >
+          </li>
+          <li>
+            <a
+              class="footer__link"
+              href="https://travel.yandex.ru"
+              target="_blank"
+              >Путешествия</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <p class="footer__copyright">© 2022. Вероника Халитова</p>
+    </footer>
   </body>
 </html>
