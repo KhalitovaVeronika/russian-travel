@@ -3,9 +3,15 @@
     max-width: 690px;
     font-family: Inter;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 12px;
     margin: 32px 0 0;
     padding: 0;
-    line-height: 18px;
+    line-height: 150%;
 }
+
+@media screen and (max-width: 425px) {
+    .intro__list {
+      margin-top: 33px;
+    }
+  }
